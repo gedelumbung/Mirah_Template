@@ -1,0 +1,44 @@
+body{
+font-family:Arial;
+background-image:url(../images/page_tile_11.png);
+background-repeat:repeat;
+background-color:#333;
+font-size:12px;
+color:#FFFFFF;
+}
+
+#logo{
+background-image:url(../images/bg-logo-admin.png);
+background-repeat:repeat-x;
+background-position:center;
+height:181px;
+}
+
+#left-menu{
+padding:8px;
+}
+
+#basic{}
+#basic img{
+border:1px dotted #fff;
+padding:3px;
+}
+#basic img:hover{
+background-color:#FFFF99;
+}
+
+h2{
+font-size:12px;
+margin:0px auto;
+padding-bottom:15px;
+}
+
+a{
+color:#FFFFFF;
+text-decoration:none;
+}
+
+a:hover{
+color:#FFCC00;
+text-decoration:underline;
+}

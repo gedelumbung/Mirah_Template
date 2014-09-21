@@ -1,0 +1,60 @@
+/* Ticker Styling */
+.ticker-wrapper.has-js {
+	width: 730px;
+	height: 32px;
+	display: block;
+}
+.ticker {
+	width: 710px;
+	height: 23px;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.ticker-content {
+	margin: 0px;
+	position: absolute;
+	color: #1F527B;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	line-height: 1.2em;
+}
+.ticker-content:focus {
+	none;
+}
+.ticker-content a {
+	text-decoration: none;	
+	color: #1F527B;
+}
+.ticker-content a:hover {
+	text-decoration: underline;	
+	color: #0D3059;
+}
+.ticker-swipe {
+	padding-top: 9px;
+	position: absolute;
+	top: 0px;
+	background-image:url(../images/bg-ticker-slide.jpg);
+	background-repeat:repeat-x;
+	display: block;
+	width: 800px;
+	height: 23px; 
+}
+.ticker-swipe span {
+	margin-left: 1px;
+	border-bottom: 1px solid #1F527B;
+	height: 5px;
+	width: 7px;
+	display: block;
+}
+.js-hidden {
+	display: none;
+}
+.no-js-news {
+	padding: 10px 0px 0px 45px; 
+	color: #F8F0DB;
+}
+.left .ticker-swipe {
+	/*left: 80px;*/
+}

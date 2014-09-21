@@ -1,0 +1,126 @@
+body{
+font-family:Arial;
+background-image:url(../images/page_tile_11.png);
+background-repeat:repeat;
+background-color:#EDE6CC;
+margin:50px;
+font-size:12px;
+color:#000;
+}
+#nav_home{
+position:fixed;
+top:0;
+left:0;
+right:0;
+text-align:center;
+padding:10px;
+color:#FFFFFF;
+background-color:#161616;
+font-weight:bold;
+background-image:url(../images/page_tile_11.png);
+background-repeat:repeat;
+z-index:99;
+}
+.input-teks{
+padding:8px;
+font-size:22px;
+width:95%;
+font-weight:bold;
+border:1px solid #D3D3D3;
+}
+.input-teks-normal{
+padding:8px;
+font-size:14px;
+width:95%;
+font-weight:bold;
+border:1px solid #D3D3D3;
+}
+.input-teks-small{
+padding:8px;
+font-size:12px;
+width:95%;
+font-weight:bold;
+border:1px solid #D3D3D3;
+}
+.input-button{
+padding:8px;
+font-size:14px;
+width:200px;
+font-weight:bold;
+border:1px solid #D3D3D3;
+}
+.input-button:hover{
+background-color:#FFFF99;
+cursor:pointer;
+}
+
+#footer{
+	position:relative;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width:100%;
+	clear:both;
+	text-align:center;
+}
+
+#floatMenu {
+	width:90%;
+	clear:both;
+	border:1px dotted #666666;
+	padding:20px;
+}
+
+#gallery-page{
+width:100%;
+clear:both;
+color:#666666;
+text-align:center;
+}
+
+#sub-gallery-page{
+width:140px;
+height:110px;
+border:1px solid #4C9015;
+margin:5px 0px 5px 6px;
+padding:3px;
+float:left;
+color:#666666;
+text-align:center;
+}
+
+a{
+text-decoration:none;
+color:#FF3300;
+border:0px;
+}
+
+#sub-gallery-page:hover{
+border:1px solid #666666;
+}
+
+.pagingpage-nomor{
+	background-color: #fff;
+	text-align:center;
+	width:20px;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	float:left;
+	margin:1px;
+}
+.pagingpage{
+	background-color: #fff;
+	padding: 3px;
+	border: 1px solid #CCCCCC;
+	float:left;
+	margin:1px;
+}
+
+
+.cleaner_h5 { clear: both; width:100%; height: 5px; }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }

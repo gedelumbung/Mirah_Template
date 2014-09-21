@@ -1,0 +1,63 @@
+body{
+margin:200px 150px 150px 150px;
+padding:0px;
+background-image:url(../images/page_tile_11.png);
+background-repeat:repeat;
+background-color:#333333;
+font-family:Arial;
+color:#FFFFFF;
+font-size:12px;
+}
+
+
+#box-login{
+width:700px;
+height:250px;
+margin:0px auto;
+-moz-box-shadow: 5px 5px 5px #333333;
+  -webkit-box-shadow: 5px 5px 5px #333333;
+  box-shadow: 5px 5px 5px #333333;
+}
+
+#box-login-logo{
+width:280px;
+height:250px;
+background-image:url(../images/img-logo.png);
+background-position:center;
+background-repeat:no-repeat;
+float:left;
+}
+
+#box-login-input{
+width:400px;
+height:230px;
+background-image:url(../images/spotlight-bg.png);
+background-color:#333333;
+padding:10px;
+float:right;
+}
+
+#footer{
+margin:0px auto;
+text-align:center;
+padding-top:30px;
+}
+
+.input-teks{
+padding:7px;
+border:1px dotted #666666;
+}
+.input-button{
+padding:7px;
+width:80px;
+border:1px dotted #666666;
+font-weight:bold;
+background-color:#CCCCCC;
+}
+.input-button:hover{
+padding:7px;
+border:1px dotted #666666;
+font-weight:bold;
+background-color:#FFFF99;
+cursor:pointer;
+}
